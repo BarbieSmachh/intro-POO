@@ -1,4 +1,8 @@
 <?php
+
+require_once 'entity/mammifère.php';
+
+
 class Chien extends Mammifère
 {
     public $name="Le chien";
