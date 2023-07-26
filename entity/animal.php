@@ -1,5 +1,5 @@
 <?php 
-class Animal
+abstract class Animal
 {
     public $type="Mammifère";   
     public function info() {

@@ -3,7 +3,7 @@
 require_once 'entity/animal.php';
 
 
-class Mammifère extends Animal
+abstract class Mammifère extends Animal
 {
     public $breeding = "allaitement";
     public function infoPlus() {
